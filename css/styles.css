@@ -170,3 +170,52 @@ main form .links-container aside {
     align-items: center;
 }
 
+main form .links-container aside i{
+    font-size: 1.6em;
+    background-color: white;
+    padding: 8px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    transition: 0.23s ease-in-out;
+    color: #fff;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main form .links-container aside .google{
+    color: #e34133;
+
+}
+
+main form .links-container aside .google:hover{
+    background-color: #e34133;
+    color: #fff;
+
+}
+
+main form .links-container aside .linkedin{
+    color: #3633eb;
+
+}
+
+main form .links-container aside .linkedin:hover{
+    background-color: #3633eb;
+    color: #fff;
+
+}
+
+main form .links-container aside .facebook{
+    color: #001381;
+
+}
+
+main form .links-container aside .facebook:hover{
+    background-color: #001381;
+    color: #fff;
+
+}
+
+
