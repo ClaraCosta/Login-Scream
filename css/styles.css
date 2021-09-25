@@ -110,3 +110,31 @@ main form .password-infos{
     align-items: center;
     justify-content: space-between;
 }
+
+main form .password-infos a {
+    transition: 0.2s ease-in-out;
+
+}
+
+main form .password-infos a:hover {
+    color: ;
+}
+
+main form button{
+    background-color: #239bae;
+    width: 90%;
+    height: 50px;
+    border: 0px;
+    outline: 0;
+    border-radius: 12px;
+    margin-top: 10%;
+    font-size: 1.6em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+main form button:hover{
+    background: #fff;
+    color: #239bae;
+}
