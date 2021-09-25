@@ -24,11 +24,11 @@ header h1 {
 main {
     width: 100%;
     min-height: 100vh;
-    background-color: #239bae;
+    background-color: #2398aa;
     
     display: flex;
     justify-content: center;
-    box-shadow: inset 0px 2px 3px rgba(27, 27, 27, 0.548);
+    box-shadow: inset 0px 2px 3px rgba(24, 24, 24, 0.548);
 }
 
 /*
@@ -46,7 +46,7 @@ main form{
     margin-top: 2%;
     width: 32%;
     height: 75%;
-    background-color: #040505da;
+    background-color: #040505;
     box-shadow: 0px 2px 3px rgba(27, 27, 27, 0.548) inset 0px 4px 4px rgba(27, 27, 27, 0.548);
     border-radius: 16px;
 
@@ -74,11 +74,11 @@ main form .inputs-container input{
     border-radius: 16px;
 
     font-size: 16px;
-    color: #103a3ada;
+    color: #0405059d;
 }
 
 main form .inputs-container input:focus{
-    box-shadow: inset 1px 4px 7px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 1px 4px 7px rgba(81, 177, 180, 0.979);
 }
 
 main form .password-container{
@@ -114,8 +114,15 @@ main form .password-infos{
 
 main form .password-infos a {
     font-display: white;
+    color: #239bae;
     transition: 0.2s ease-in-out;
 
+}
+
+main form .password-infos span {
+    font-display: white;
+    color: #239bae;
+    transition: 0.2s ease-in-out;
 }
 
 main form .password-infos a:hover {
@@ -150,6 +157,7 @@ main form .links-container {
 }
 
 main form .links-container span {
+    color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -180,9 +188,23 @@ main form .links-container aside i{
     transition: 0.23s ease-in-out;
     color: #fff;
     
+    margin-bottom: 1vw;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+main form footer span{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    width: 100%;
+    font-size: 0.8;
+    font-weight: 600;
+    margin-top: 1vw;
+    
 }
 
 main form .links-container aside .google{
