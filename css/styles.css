@@ -11,8 +11,28 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #040505da;
+    background-color: #0e0d0d;
 
+}
+
+header img{
+    font-size: 1.6em;
+    background-color: white;
+    padding: 1px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    transition: 0.23s ease-in-out;
+    color: #fff;
+    
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-right: 2vw;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+
+    cursor: pointer;
 
 }
 
