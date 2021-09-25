@@ -136,22 +136,37 @@ main form button{
     transition: 0.3s ease-in-out;
 }
 
-main form button:hover{
+main form button:hover {
     background: #fff;
     color: #239bae;
 }
 
-main form .links-container{
+main form .links-container {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 10%;
+    margin-top: 8%;
 
 }
 
-main form .links-container spam{
+main form .links-container span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    width: 100%;
     font-size: 0.8;
     font-weight: 600;
 
+}
+
+main form .links-container aside {
+    margin-top: 5%;
+    width: 100%;
+
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
