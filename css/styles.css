@@ -101,3 +101,12 @@ main form .password-container i{
 main form .password-container #eye{
     display: none;
 }
+
+main form .password-infos{
+    width: 90%;
+    margin-top: 3%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
