@@ -11,7 +11,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #0e0d0d;
+    background-color: #0a0a0a;
 
 }
 
@@ -66,7 +66,7 @@ main form{
     margin-top: 2%;
     width: 32%;
     height: 75%;
-    background-color: #040505;
+    background-color: transparent;
     box-shadow: 0px 2px 3px rgba(27, 27, 27, 0.548) inset 0px 4px 4px rgba(27, 27, 27, 0.548);
     border-radius: 16px;
 
@@ -86,7 +86,7 @@ main form .inputs-container{
 }
 
 main form .inputs-container input{
-    width: 90%;
+    width: 100%;
     height: 45px;
     padding: 8px 15px;
     outline: 0;
@@ -98,7 +98,7 @@ main form .inputs-container input{
 }
 
 main form .inputs-container input:focus{
-    box-shadow: inset 1px 4px 7px rgba(81, 177, 180, 0.979);
+    box-shadow: inset 1px 4px 7px rgba(38, 59, 59, 0.979);
 }
 
 main form .password-container{
@@ -124,7 +124,7 @@ main form .password-container #eye{
 }
 
 main form .password-infos{
-    width: 90%;
+    width: 100%;
     margin-top: 3%;
 
     display: flex;
@@ -133,15 +133,17 @@ main form .password-infos{
 }
 
 main form .password-infos a {
-    font-display: white;
-    color: #239bae;
+    font-display: rgb(0, 0, 0);
+    font-weight: 800;
+    color: #141414da;
     transition: 0.2s ease-in-out;
 
 }
 
 main form .password-infos span {
     font-display: white;
-    color: #239bae;
+    color: #141414da;
+    font-weight: 800;
     transition: 0.2s ease-in-out;
 }
 
@@ -151,7 +153,7 @@ main form .password-infos a:hover {
 
 main form button{
     background-color: #239bae;
-    width: 90%;
+    width: 100%;
     height: 50px;
     border: 0px;
     outline: 0;
@@ -265,7 +267,7 @@ main form .links-container aside .facebook:hover{
 
         width: 100%;
         min-height: 78vh;
-        background-color: #040505;
+        background-image: #040505;
 
         display: flex;
         border-radius: 10%;
@@ -276,7 +278,7 @@ main form .links-container aside .facebook:hover{
 
 @media (max-width: 700px){
     main form{
-        background-color: #000000;
+        background-color: transparent;
         box-shadow: 0px 2px 3px rgba(27, 27, 27, 0.548) inset 0px 4px 4px rgba(27, 27, 27, 0.548);
         border-radius: 16px;
     
