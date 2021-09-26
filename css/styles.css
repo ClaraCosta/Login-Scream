@@ -161,7 +161,7 @@ main form button{
     border-radius: 16px;
     margin-top: 10%;
     font-size: 1.6em;
-    font-weight: 600;
+    font-weight: 800;
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
@@ -180,14 +180,14 @@ main form .links-container {
 }
 
 main form .links-container span {
-    color: white;
+    color: #141414da;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     
     width: 100%;
     font-size: 0.8;
-    font-weight: 600;
+    font-weight: 800;
 
 }
 
@@ -278,7 +278,7 @@ main form .links-container aside .facebook:hover{
 }
 
 main form footer div{
-    color: #fff;
+    color: #141414da;
     font-weight: 800;
     width: 100%;
     margin-top: 10%;
@@ -289,13 +289,13 @@ main form footer div{
 
 main form footer a{
     font-weight: 800;
-    color: #fff;
+    color: #141414da;
     transition: 0.2s ease-in-out;
     
 }
 
 main form footer a:hover {
-    color:#141414da;
+    color:#fff;
     font-weight: 800;
     transition: 0.2s;
 
