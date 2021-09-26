@@ -45,6 +45,7 @@ main {
     width: 100%;
     min-height: 100vh;
     background-image: linear-gradient(50deg ,#2398aa, #a3e1eb);
+    overflow: hidden;
     
     display: flex;
     justify-content: center;
