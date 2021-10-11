@@ -218,7 +218,7 @@ main form .links-container aside i{
 }
 
 main form footer span{
-    color: white;
+    color: #ffff;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
